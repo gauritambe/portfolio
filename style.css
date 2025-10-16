@@ -1,0 +1,272 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9fa; /* Light background */
+  color: #212529;
+}
+
+.navbar {
+  background-color: #0d1b2a; /* Navy Blue */
+}
+
+.navbar .nav-link {
+  color: #f8f9fa !important;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #f4a261 !important; /* Highlight on hover */
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* Static professional gradient */
+  background: linear-gradient(135deg, #0d1b2a, #1b9aaa);
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0px 0px 6px rgba(0,0,0,0.4);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #e0e1dd;
+}
+
+
+/* Smooth gradient animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Hero Buttons */
+.btn-hero {
+  background: linear-gradient(90deg, #1b9aaa, #0d1b2a);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-hero:hover {
+  background: linear-gradient(90deg, #f4a261, #e76f51);
+  color: #fff;
+}
+
+.btn-hero-outline {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-hero-outline:hover {
+  background: #fff;
+  color: #0d1b2a;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  color: #0d1b2a;
+  font-weight: 600;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #212529;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.skills .progress {
+  height: 18px;
+  border-radius: 10px;
+  background: #dee2e6;
+}
+
+.skills .progress-bar {
+  background: linear-gradient(90deg, #1b9aaa, #0d1b2a);
+}
+
+.list-group-item {
+  border: none;
+  padding: 12px 18px;
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-warning {
+  background-color: #f4a261;
+  border: none;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #e76f51;
+  color: #fff;
+}
+
+.btn-info {
+  background-color: #1b9aaa;
+  border: none;
+  color: #fff;
+}
+
+.btn-info:hover {
+  background-color: #16697a;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #0d1b2a;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0d1b2a;
+  color: #e0e1dd;
+  font-size: 0.9rem;
+}
+
+.skill-card {
+  border: none;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #212529;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  min-height: 200px;
+}
+
+.skill-card h5 {
+  color: #0d1b2a;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #eee;
+}
+
+.skill-list li:last-child {
+  border-bottom: none;
+}
+
+.level {
+  font-size: 0.9rem;
+  color: #f4a261; /* golden stars */
+}
+
+#education .card {
+  border: none;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#education .card-title {
+  font-weight: 600;
+  color: #0d1b2a;
+}
+
+#education .card-subtitle {
+  font-size: 0.9rem;
+}
+
+/* Education Cards */
+.edu-card {
+  border: none;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.edu-card h5 {
+  font-weight: 600;
+  color: #0d1b2a;
+}
+
+.edu-card h6 {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+/* Project Section Styling */
+.project-section {
+  margin-bottom: 60px;
+}
+
+.subsection-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.project-card {
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #ffffff;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h5 {
+  color: #0d1b2a;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 15px;
+}
