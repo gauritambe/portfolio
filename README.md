@@ -30,7 +30,7 @@ Make sure you have the following before you begin:
 
             
 4. Create AWS Account then go to the IAM service: ( Note: Configure your machine so that you can use awscli )
-    - Create user as Devops and create Access keys(CLI) for that also and give administartor access. ( Download Access list .csv file )
+    - Create user as Devops and create Access keys(CLI) for that also and give administartor access. ( Download Access keys .csv file )
       
 5. In AWS account go to the S3 Bucket:
       - Create bucket:
@@ -61,7 +61,7 @@ Make sure you have the following before you begin:
                               
 7. Open github for CI/CD:
       - Go to Actions tab → set up workflow yourself (A file will be created as main.yml)
-      - In main.yml write CI/CD code
+      - In main.yml write CI/CD code:
             name: Portfolio on aws deployment
 
             on: 
