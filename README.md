@@ -98,7 +98,7 @@ Make sure you have the following before you begin:
 Benifits:
 - Fully automated deployment via GitHub Actions
 - No manual upload required to S3
-- Continuous updates — every push to main updates your live portfolio
+- Continuous updates, every push to main updates your live portfolio
 
 </body>
 </html>
