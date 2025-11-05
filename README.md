@@ -62,6 +62,7 @@ Make sure you have the following before you begin:
 7. Open github for CI/CD:
       - Go to Actions tab → set up workflow yourself (A file will be created as main.yml)
       - In main.yml write CI/CD code:
+        
             name: Portfolio on aws deployment
 
             on: 
